@@ -1,0 +1,12 @@
+App => Header Menu Footer className='container'
+
+Header => return header tag with className ='header' and one h1 inside it <h1>Fast React Pizza Co.</h1>
+
+Menu => return main tag className='menu' with one h2 Our Menu and a piece of jsx with p tag  and a ul with className='pizzas' inside it with another JSX where we'll render the pizza Component by passing pizzaData array into it
+
+Pizza Component return a li tag className pizza + sold-out if pizza has sold out then into it img and div into div h3 pizzaName p ingredients span where if pizza has sold out then we'll write soldout else pizza's price
+
+footer have hour var with .getHours() openHour = 12; closeHour = 22; isOpen= if hour >= openHour & <= closeHour
+than it'll return a footer tag with footer className where if it's open than we'll return order componenet else a p tag 
+
+Order Component return div with className order into which we've p tag and a button 
